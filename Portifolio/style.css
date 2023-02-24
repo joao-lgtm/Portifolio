@@ -1,0 +1,165 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    gap: .8rem;
+    background-color: var(--body-bg-color);
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 3rem;
+    width: 21.75rem;
+}
+
+
+
+span{
+    color:var(--text-color);
+    font-size: 0.813rem;
+    font-weight: 400;
+    
+}
+
+
+nav{
+    border-radius: 1.25rem;
+    flex-basis: 20%;
+    background-color: var(--bg-cards);
+    padding: 1rem;
+    
+}
+
+main{
+    width: 100vw;
+}
+
+h1{
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 1.875rem 1.875rem 1.875rem 1.875rem;
+    line-break: strict;
+    color: var(--text-color);
+}
+h2{
+    color: var(--text-color);
+    font-size:1.25rem;
+    font-weight: 700;
+}
+.list-01{
+    list-style: none;
+}
+
+.list-itens-01{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.75rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-cards);
+    flex-basis: 20%;
+    align-items: center;
+    border-radius: 1.25rem;
+}
+.image-perfil{
+    width: 10rem;
+    border: solid #00FF00 .1rem;
+    border-radius: 10rem;
+    margin-top: 2rem;
+}
+
+.name{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 1.438rem;
+    margin: 1.875rem 0.625rem 0.625rem 0.625rem;
+}
+
+.function{
+    font-size: 0.813rem;
+    font-weight: 300;
+    margin: 0rem 0.625rem 3.063rem 0.625rem;
+}
+
+.technology{
+    background-color: var(--bg-cards);
+    flex-basis: 20%;
+    border-radius: 1.25rem;
+}
+
+.titles{
+    margin: 1.875rem 0rem 0rem 1.25rem;
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0rem 0rem 1.875rem 1rem;
+}
+
+.itens{
+    width: 5rem;
+    height: 1.5rem;
+    margin: 0.938rem 0rem 0rem 0.9rem ;
+    background-color: var(--bg-techs);
+    border-radius: 1.875rem;
+    text-align: center;
+}
+
+.text{
+    color: #000000;
+    font-weight: 700;
+    font-size: 0.625rem;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-cards);
+    flex-basis: 20%;
+    border-radius: 1.25rem;
+}
+
+.list{
+    margin-left: 1.75rem;
+}
+.list-itens-02{
+    margin: 1rem 0rem 0.8rem 2.5rem;
+}
+.list-int{
+    display: flex;
+    flex-direction: column;
+}
+.my-project{
+   background-color: var(--bg-cards);
+   margin: 3rem 3rem 1.938rem 3.75rem;
+   border-radius: 1.25rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.ver-mais{
+    padding: 0rem 1.875rem 0rem 1.875rem;
+}
+
+a{
+    text-decoration: none;
+}
